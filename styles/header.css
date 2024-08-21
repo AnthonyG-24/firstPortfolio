@@ -1,0 +1,87 @@
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+  padding: 10px 50px;
+  /*   box-shadow: 10px 10px 5px lightblue;
+ */
+}
+
+.left-nav {
+  display: flex;
+  gap: 30px;
+  flex-shrink: -1 auto;
+}
+
+.right-nav {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+}
+
+.linkedin-svg,
+.github-svg,
+.facebook-svg {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-family: "DotGothic16", sans-serif;
+}
+
+.right-nav a:hover {
+  color: #555;
+}
+
+@media only screen and (max-width: 768px) {
+  .header-section {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(249, 198, 198);
+  }
+
+  .right-nav,
+  .left-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    gap: 20px;
+  }
+
+  .right-nav {
+    font-weight: 500;
+  }
+
+  .nav-links {
+    text-decoration: underline;
+  }
+
+  .linkedin-svg,
+  .github-svg,
+  .facebook-svg {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+  }
+
+  a {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,30 @@
+.resume-download-area {
+  text-align: center;
+  margin-top: -15px;
+}
+
+.resume_download {
+  width: 200px;
+  padding: 10px 0 10px;
+  border-radius: 100px;
+  background-color: wheat;
+  font-size: 20px;
+  font-family: "DotGothic16", sans-serif;
+  color: black;
+  font-weight: 500;
+  letter-spacing: 2px;
+  border: 2px solid transparent;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  box-shadow: 1px -5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.resume_download:hover {
+  cursor: pointer;
+  background-color: #f0e6d6;
+  border-color: #d2b68f;
+  color: #333;
+}
+
+.resume_download:active {
+  background-color: #e0d0b2;
+}

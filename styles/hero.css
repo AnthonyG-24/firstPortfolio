@@ -1,0 +1,82 @@
+.hero-section {
+  display: flex;
+  justify-content: center;
+}
+
+.pixel-art-background {
+  position: absolute;
+  z-index: -1;
+  object-fit: cover;
+}
+
+/* .left-side-all-color {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 25%;
+  z-index: -1;
+  background-color: rgb(250, 192, 192);
+  overflow: hidden;
+} */
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: -15px 0 0 0 black, 15px 0 0 0 black, 0 -15px 0 0 black,
+    0 15px 0 0 black;
+}
+
+.my-name {
+  border-right: 5px solid;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 65%;
+  animation: typing 2s steps(18), cursor 0.6s step-end infinite;
+}
+
+.name {
+  color: lightcoral;
+  font-weight: bold;
+}
+
+.japanese {
+  color: lightcoral;
+  font-weight: 900;
+  letter-spacing: 10px;
+}
+
+.my-description {
+  font-family: "DotGothic16", sans-serif;
+  font-size: 22px;
+  width: 800px;
+  margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero-content {
+    text-align: center;
+  }
+
+  .left-side-all-color {
+    background-color: transparent;
+    margin-bottom: 24px;
+    overflow: visible;
+  }
+
+  .my-name {
+    font-size: 22px;
+    width: 89%;
+  }
+
+  .my-description {
+    font-size: 18px;
+    width: 400px;
+  }
+}
