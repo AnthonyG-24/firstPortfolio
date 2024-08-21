@@ -97,6 +97,7 @@
 
   .experience-title {
     margin-bottom: 120px;
+    font-size: 18px;
   }
 
   .experience-container {
@@ -104,7 +105,7 @@
   }
 
   .experience-card {
-    width: 400px;
+    width: 300px;
     margin-bottom: 40px;
   }
 }

@@ -14,7 +14,7 @@
 }
 
 .projects-title {
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   display: inline-block;
   text-shadow: 2px 2px 0 #fff, 4px 4px 0 lightcoral;
   border-right: 5px solid;
@@ -50,9 +50,10 @@
 
 @media only screen and (max-width: 768px) {
   .projects-section {
-    margin-top: 200px;
+    margin-top: 100px;
   }
 
-  .project-title {
+  .projects-title {
+    font-size: 18px;
   }
 }
