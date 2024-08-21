@@ -20,6 +20,10 @@
   justify-content: space-evenly;
 }
 
+.joke {
+  background-color: aqua;
+}
+
 .linkedin-svg,
 .github-svg,
 .facebook-svg {
